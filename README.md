@@ -1,6 +1,7 @@
 # Foundations_Lab_Final
 
 **Author:** Chad K. Bachoo  
+**Institution:** The Knowledge House New York  
 **Course:** Cybersecurity Foundations Intensive  
 **Date:** February 23, 2026  
 **Instructor:** George Robbins Lead Technical Instructor  
