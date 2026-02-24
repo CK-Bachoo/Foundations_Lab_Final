@@ -1,5 +1,6 @@
 # Foundations_Lab_Final
 **Author:** Chad K. Bachoo Cybersecurity NY
+
 **Institution:** The Knowledge House NY  
 **Course:** Cybersecurity Foundations Intensive  
 **Date:** February 23, 2026  
