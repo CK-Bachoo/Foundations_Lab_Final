@@ -27,7 +27,7 @@ The following lab milestones were executed using a **"Security-First"** approach
 
 ---
 
-## 📚 References (APA Style)
+## 📚 References
 *The following resources provided the foundational frameworks for this project:*
 
 Bachoo, C. K. (2026). *foundations_final_project: Technical infrastructure summary* [Unpublished laboratory manual]. GitHub Repository.
