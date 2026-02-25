@@ -7,57 +7,44 @@
 
 ---
 
-## 🚀 Project Overview
-This repository serves as the primary technical staging environment for the **Cybersecurity Foundations Intensive**. It is established to manage version-controlled documentation and lab configurations that reflect a rigorous **Purple Team** methodology—integrating defensive posture with offensive insight.
+## Project Overview
+This repository serves as the primary technical staging environment for the Cybersecurity Foundations Intensive. It reflects a rigorous **Purple Team methodology**, integrating defensive posture with offensive insight to ensure mission readiness regardless of hardware limitations [1, 3].
 
-## 🏁 Core Learning Objectives
-* **Network Defense:** Implementing robust firewalls and rule-based access controls.
-* **Traffic Analysis:** Monitoring packet-level data with Wireshark to identify signature-based anomalies.
-* **Security Automation:** Utilizing Python for rapid deployment of security tasks and log management.
-* **Infrastructure Scaling:** Managing hybrid virtual environments via **VMware**, **Termux**, and **GitHub Codespaces**.
+## Core Learning Objectives
+*   **Network Defense:** Implementing robust firewalls and rule-based access controls.
+*   **Security Automation:** Utilizing Python for rapid deployment of security tasks.
+*   **Infrastructure Scaling:** Managing hybrid virtual environments via Termux and GitHub Codespaces.
 
----
+## Security Philosophy & Governance
 
-## 🛠️ Night 1: Mission Statement & Methodology
-The following lab milestones were executed using a **"Security-First"** approach, ensuring all configurations meet industry standards for hardening and resilience.
+### 1. The CIA Triad Mapping
+*   **Confidentiality:** Access is restricted using **Multi-Factor Authentication (MFA)** and private SSH keys, adhering to **CIS Control #5** [4, 5]. Personally Identifiable Information (PII) is sanitized to protect identity.
+*   **Integrity:** The use of **Git cryptographic hashing** ensures configuration tracking and **Non-repudiation** [4, 6]. Every commit provides a verifiable audit trail of technical actions.
+*   **Availability:** Resiliency is maintained through **GitHub Codespaces** deployment, providing hardware-agnostic, cloud-native access to the workstation [7, 8].
 
-1. **Environment Staging:** Configured a virtualized laboratory environment utilizing an Ubuntu Server instance and Kali Linux nodes.
-2. **Network Surveillance:** Deployed Wireshark to intercept and analyze local network traffic for potential lateral movement and intrusion vectors.
-3. **Task Automation:** Developed custom Python scripts to automate system health telemetry and security log rotation.
-4. **Validation & Audit:** Verified firewall integrity and user permissions to enforce the **Principle of Least Privilege (PoLP)**.
+### 2. AAA Implementation
+*   **Authentication:** Phishing-resistant MFA on the GitHub platform [7].
+*   **Authorization:** Principle of Least Privilege (PoLP) applied to branch permissions [7].
+*   **Accounting:** All technical actions are logged via the **GitHub Audit Log** for full traceability [7, 9].
 
----
+### 3. Infrastructure Hardening (The Mobile Security Stack)
+This project utilizes a specialized security stack to ensure environment integrity while working from a mobile device:
+*   **Local Environment:** **Termux** (Android Linux Virtualization) provides the local engine for initial staging and script testing.
+*   **Cloud Environment:** **GitHub Codespaces** (Ubuntu-based Linux) provides the primary workstation, ensuring high availability.
+*   **DNS Security:** **Quad9** (Encrypted DNS/Threat Blocking) acts as the shield, blocking malicious domains and preventing traffic sniffing [User Query].
+*   **Software Provenance:** **F-Droid** (Verified Open-Source Repository) ensures the integrity of mobile security tools [User Query].
+*   **Documentation:** **Linux Command Library** serves as the primary reference for POSIX-compliant syntax [User Query].
 
-## 🏛️ Night 2: Security Philosophy & Governance
-**Current Phase:** Strategy Room Mapping (NIST CSF 2.0 & CIS Controls)
+## Technical Proof (LAB_AUDIT.PY)
+The environment is verified using an automated Python script that audits the OS platform and Git status. A successful audit confirms:
+*   **OS Platform:** linux
+*   **Git Status:** Operational ✅
+*   **Mission Status:** Verified & Ready ✅
 
-### **1. The CIA Triad Mapping**
-* **Confidentiality:** Access is restricted via **CIS Control #5** (Account Management) using GitHub MFA and private SSH keys to prevent unauthorized data exposure.
-* **Integrity:** We utilize Git's cryptographic hashing to ensure **Non-repudiation**. Any unauthorized changes to the system configuration are detectable via version history.
-* **Availability:** Resiliency is maintained through the **GitHub Codespaces** deployment strategy, ensuring the workbench is accessible regardless of local hardware status.
+## Project Narrative: The "Mission-First" Pivot
+Faced with hardware limitations while awaiting equipment, this workstation was engineered to prove that a cybersecurity professional's value lies in their **methodology**, not their hardware. By pivoting from local mobile virtualization to cloud-native Ubuntu environments, this project serves as a case study in **infrastructure scaling** and **resilient engineering** [1, 9].
 
-### **2. AAA Implementation**
-* **Authentication:** Enforced via phishing-resistant MFA on the GitHub platform.
-* **Authorization:** I apply the **Principle of Least Privilege (PoLP)** by restricting write permissions to the main branch.
-* **Accounting:** All technical actions and script executions are logged via the GitHub Audit Log for traceability and compliance.
-
----
-
-## 📚 References
-*The following resources provided the foundational frameworks for this project:*
-
-Bachoo, C. K. (2026). *foundations_final_project: Technical infrastructure summary* [Unpublished laboratory manual]. GitHub Repository.
-
-Center for Internet Security. (2024). *CIS Controls v8.1: Critical security controls for effective cyber defense*.
-
-CompTIA. (2025). *A+ core 1 & core 2 certification study guide*. CompTIA Press.
-
-National Institute of Standards and Technology. (2024). *The NIST cybersecurity framework (CSF) 2.0*. U.S. Department of Commerce.
-
-Robbins, G. (2026). *Cybersecurity foundations intensive: Unit 3 - Network defense and firewalls* [Lecture notes]. The Knowledge House.
-
-The Knowledge House. (n.d.). *Foundations lab workbook: Version-controlled documentation and configurations*. 
-
----
-
-`[ Status: Night 1 & 2 Verified ✅ | Logic: Analytical | Focus: Purple Team 🛡️ ]`
+## Academic References
+*   Center for Internet Security. (2024). *CIS Controls v8.1*. [10].
+*   CompTIA. (2025). *A+ Core Certification Study Guide*. [10].
+*   National Institute of Standards and Technology. (2024). *NIST Cybersecurity Framework (CSF) 2.0*. [10, 11].
