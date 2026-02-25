@@ -1,14 +1,16 @@
-import platform
-import datetime
 import os
+import sys
 
-def run_purple_audit():
-    print(f"\n--- 🛡️ Purple Team Lab Audit | {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ---")
-    print(f"Cloud Instance: {platform.node()}")
-    print(f"Kernel Version: {platform.release()}")
-    print(f"Current Path: {os.getcwd()}")
-    print("Security Status: Environment Verified & Mission Ready ✅\n")
+def verify_environment():
+    print("--- Security Environment Audit ---")
+    print(f"OS Platform: {sys.platform}")
+    print(f"Python Version: {sys.version.split()}")
+
+    # Verify Git Configuration
+    git_check = os.system("git --version")
+    if git_check == 0:
+        print("Git Status: Operational ✅")
+        print("Security Status: Environment Verified & Mission Ready ✅")
 
 if __name__ == "__main__":
-    run_purple_audit()
-    
+    verify_environment()
