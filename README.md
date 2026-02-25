@@ -44,7 +44,29 @@ The environment is verified using an automated Python script that audits the OS 
 ## Project Narrative: The "Mission-First" Pivot
 Faced with hardware limitations while awaiting equipment, this workstation was engineered to prove that a cybersecurity professional's value lies in their **methodology**, not their hardware. By pivoting from local mobile virtualization to cloud-native Ubuntu environments, this project serves as a case study in **infrastructure scaling** and **resilient engineering** [1, 9].
 
-## Academic References
+# Foundations Lab Final - Security Environment
+
+## Mission Objective
+To establish a structured, automated security workstation for auditing and evidence collection. 
+
+## Technical Mapping
+* **Termux**: Handheld Linux (Sandboxed Android Environment)
+* **Codespaces**: Virtualized VMware/Linux Workstation
+* **Packet Tracer**: Network Simulation & Traffic Generation
+
+## Environment Architecture
+* **scripts/**: Contains `lab_audit.py` for automated environment verification.
+* **pcap/**: Directory staged for network traffic capture (Packet Tracer Exports).
+* **slack/**: Directory staged for incident response logs and alerts.
+
+## Verification Status
+- [x] Linux Environment: **Operational** (Termux/Codespaces)
+- [x] Python Security Script: **Verified**
+- [x] Git/GitHub Integration: **Mission Ready**
+
+---
+
+## References
 *   Center for Internet Security. (2024). *CIS Controls v8.1*. [10].
 *   CompTIA. (2025). *A+ Core Certification Study Guide*. [10].
 *   National Institute of Standards and Technology. (2024). *NIST Cybersecurity Framework (CSF) 2.0*. [10, 11].
