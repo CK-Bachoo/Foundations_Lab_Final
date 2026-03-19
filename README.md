@@ -13,3 +13,6 @@
 * **Audit Trail:** View the Commits tab for timestamped proof of work.
 
 *Submission Verified | Developed by Chad K. Bachoo*
+
+## Lab Links
+* [Lab 01: Linux Fundamentals](./Lab_01_Linux_Fundamentals/notes.txt)
