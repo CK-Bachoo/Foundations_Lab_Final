@@ -1,0 +1,2 @@
+# Linux Fundamentals Lab Notes
+Directory reconstructed for portfolio audit.
