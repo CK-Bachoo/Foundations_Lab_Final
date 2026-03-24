@@ -1,6 +1,6 @@
 # Foundations Final
 
-**Fellow:** CK-Bachoo | NY IF-CS-26
+**Fellow:**CK-Bachoo | NY IF-CS-26
 **Scope:** Linux CLI & Security Fundamentals
 
 ### 🛡️ The Knowledge House NY IF-CS-26 Chad K. Bachoo
