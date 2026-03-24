@@ -1,9 +1,9 @@
 # Foundations Final
 
-**Candidate:** CK-Bachoo | Navy Veteran
+**Fellow:** CK-Bachoo | NY IF-CS-26
 **Scope:** Linux CLI & Security Fundamentals
 
-### 🛡️ Dual-Certified: Google IT Support Professional | CompTIA A+
+### 🛡️ The Knowledge House NY IF-CS-26 Chad K. Bachoo
 
 ---
 
