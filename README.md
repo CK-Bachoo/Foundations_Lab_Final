@@ -15,4 +15,4 @@
 *Submission Verified | Developed by Chad K. Bachoo*
 
 ## Lab Links
-* [Lab 01: Linux Fundamentals](./Lab_01_Linux_Fundamentals/notes.txt)
+* [Lab 01: Linux Fundamentals](./Lab_01_Linux_Fundamentals/notes.txt) https://github.com/CK-Bachoo/Foundations_Lab_Final/commit/4786521c1cadef2e1514fae52efa7bb394810e25
