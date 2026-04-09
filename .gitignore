@@ -4,3 +4,4 @@
 .cache/
 .npm/
 node_modules/
+*.pcap
