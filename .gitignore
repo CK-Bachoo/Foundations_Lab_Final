@@ -1,0 +1,6 @@
+# Security Bunker Standard Ignore
+*.log
+*.env
+.cache/
+.npm/
+node_modules/
